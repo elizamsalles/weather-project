@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Playfair Display', serif;
+}
+
+.container {
+    width: 95%;
+    max-width: 420px;
+    height: 280px;
+    align-items: center;
+    background-color: black;
+    opacity: 0.8;
+    border-radius: 20px;
+    padding: 25px;
+}
+
+body {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    background-image: url(img/john-fowler-RsRTIofe0HE-unsplash.jpg);
+    background-size: cover;
+    
+    
+}
+
+.selecao {
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 24px;
+    font-size: 20px;
+    background-color: #7c7c7c2b;
+    color: whitesmoke;
+    width: calc(100% - 100px);
+}
+
+.selecao:hover {
+    background-color: #7c7c7c6b;
+}
+
+.lupa {
+    height: 20px;
+}
+
+button {
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 55px;
+    background-color: #7c7c7c2b;
+    float: right;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #7c7c7c6b;
+}
+
+.inf {
+    margin-top: 20px;
+}
+
+h2 {
+    color: white;
+    font-size: 28px;
+}
+
+.temp {
+    color: white;
+    
+}
+
+.descricao {
+    color: white;
+    
+}
+
+.humidade {
+    color: white;
+    
+}

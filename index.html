@@ -1,21 +1,41 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
     <title>Weather Project</title>
 </head>
+
 <body>
-    <input type="text">
-    <button>pesquisar</button>
 
-    <h3>Tempo em Rio de Janeiro</h3>
-    <p>28°C</p>
-    <br>
-    <img src="img/free-vector-nuage-cloud-cloud-11563076296xruwqojrag.png" alt="imagem vetorizada de uma nuvem" width="25">
-    <p>Nuvens dispersas</p>
 
-    <p>Humidade: 70%</p>
+    <div class="container">
+        <input class="selecao" type="text" placeholder="Cidade">
+        <button>
+            <img class="lupa" src="img/find.svg" alt="imagem vetorizada de uma lupa">
+        </button>
+
+        <div class="inf">
+
+            <h2>Tempo em Rio de Janeiro</h2>
+            <p class="temp">28°C</p>
+            <br>
+            <!-- <img src="img/free-vector-nuage-cloud-cloud-11563076296xruwqojrag.png" alt="imagem vetorizada de uma nuvem"
+                width="25"> -->
+            <p class="descricao">Nuvens dispersas</p>
+            <p class="humidade">Humidade: 70%</p>
+
+        </div>
+
+        
+    </div>
+
 </body>
+
 </html>
