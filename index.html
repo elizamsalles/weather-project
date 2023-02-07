@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    <script src="script.js"></script>
     <title>Weather Project</title>
 </head>
 
@@ -17,23 +18,26 @@
 
     <div class="container">
         <input class="selecao" type="text" placeholder="Cidade">
-        <button>
+        <button onclick="botao()">
             <img class="lupa" src="img/find.svg" alt="imagem vetorizada de uma lupa">
         </button>
 
         <div class="inf">
 
-            <h2>Tempo em Rio de Janeiro</h2>
+            <h2 class="cidade">Tempo em Rio de Janeiro</h2>
             <p class="temp">28°C</p>
             <br>
-            <!-- <img src="img/free-vector-nuage-cloud-cloud-11563076296xruwqojrag.png" alt="imagem vetorizada de uma nuvem"
-                width="25"> -->
-            <p class="descricao">Nuvens dispersas</p>
+            <p class="sensacao">Sensação térmica: 28°C</p>
+            <div class="icon">
+                <p class="descricao">Nuvens dispersas</p>
+                <img class="icone" src="https://openweathermap.org/img/wn/04n.png"
+                    alt="imagem vetorizada de uma nuvem" width="25">
+            </div>
             <p class="humidade">Humidade: 70%</p>
 
         </div>
 
-        
+
     </div>
 
 </body>
